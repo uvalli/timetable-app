@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="ie=edge" http-equiv="x-ua-compatible">
+  <title>LS PRAYER TIMES</title>
+  <meta content="LS PRAYER TIMES" name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="favicon.ico" rel="shortcut icon">
+  <link href="css/main.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+  <script src="https://www.google.com/jsapi" type="text/javascript"></script>
+  <style type="text/css">
+  .auto-style1 { text-align: center;
+  }
+  </style>
+</head>
+
+<body id="background">
+  <div id="box" align="right">
+<SCRIPT> 
+     /*!
+ * 
+ * Google Sheets To HTML v0.9a
+ * 
+ * To use, simply replace the "tq?key=" value in the
+ * URL below with your own unique Google document ID
+ * 
+ * The Google document's sharing must be set to public
+ * 
+ */
+google.load('visualization', '1', {
+    packages: ['table']
+});
+var visualization;
+function drawVisualization() {
+    var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=16z87rDtqQBve2jINtbrxDW18kxYiv6tFQlltgCiqZdE&output=html&GID=0&usp=sharing');
+    query.setQuery('SELECT AT,AU,AV WHERE AW CONTAINS "X"');
+    query.send(handleQueryResponse);
+}
+function handleQueryResponse(response) {
+    if (response.isError()) {
+        alert('There was a problem with loading Prayer Times: ' + response.getMessage() + ' ' + response.getDetailedMessage());
+        return;
+    }
+    var data = response.getDataTable();
+    visualization = new google.visualization.Table(document.getElementById('table'));
+    visualization.draw(data, {
+        legend: 'bottom'
+    });
+}
+google.setOnLoadCallback(drawVisualization);
+</SCRIPT>
+    <div id="table" class="auto-style1" align="center">
+    </div>
+  </div>
+</body>
+</html>
