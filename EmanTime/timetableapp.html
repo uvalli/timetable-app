@@ -35,8 +35,8 @@ google.load('visualization', '1', {
 });
 var visualization;
 function drawVisualization() {
-    var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=1Zx8nlmg0CwF1o2EzMJknJuxUU8Wk57LAfJ-rZnDsX4k&output=html&GID=0&usp=sharing');
-    query.setQuery('SELECT AT,AU,AV WHERE AW CONTAINS "X"');
+    var query = new google.visualization.Query('https://spreadsheets.google.com/tq?key=17Kh1bpKX0YU-YDj3rz6u4tCfQgt4zmd5yuxPzswcQK0&output=html&GID=0&usp=sharing');
+    query.setQuery('SELECT A,B WHERE A is not null');
     query.send(handleQueryResponse);
 }
 function handleQueryResponse(response) {
