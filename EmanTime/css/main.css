@@ -84,8 +84,8 @@ a:hover {
   color: #fff !important;
     padding-top: 0.9rem !important;
 padding-bottom: 0.9rem !important;
-padding-right: 0.3rem !important;
-padding-left: 0.3rem !important;
+padding-right: 1rem !important;
+padding-left: 1rem !important;
 }
 
 .google-visualization-table-tr-head,
