@@ -112,11 +112,11 @@ background-color: #24231C!important;
 ***************************/
 
 ::-moz-selection {
-  color: #fff;
-  background: #916F31;
+  color: #916F31;
+  
 }
 
 ::selection {
-  color: #fff;
-  background: #916F31;
+  color: #916F31;
+  
 }
