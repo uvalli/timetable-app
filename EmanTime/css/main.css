@@ -93,11 +93,11 @@ padding-left: 0.3rem !important;
 .google-visualization-table-tr-head-nonstrict {
 background-color: #24231C!important;
   background-image: none !important;
-  color: #916F31 !important;
+  color: #916F31!important;
   font-size: 12pt;
   letter-spacing: 3px;
- padding-top: 2rem !important;
-
+ padding-top: 2rem!important;
+ 
 }
 
 .google-visualization-table .gradient {
