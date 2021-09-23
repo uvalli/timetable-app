@@ -22,7 +22,7 @@ h1 {
   line-height: 1.3px;
   letter-spacing: -4px;
     padding-bottom: 5px;
-    font-weight:400!important;
+    
 }
 
 p {
@@ -96,8 +96,9 @@ background-color: #24231C!important;
   background-image: none !important;
   color: #916F31!important;
   font-size: 12pt;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
  padding-top: 2rem!important;
+    font-weight:400!important;
  
 }
 
