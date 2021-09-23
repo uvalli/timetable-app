@@ -55,12 +55,14 @@ a:hover {
   color: #916F31 !important;
   font-size: 12pt;
    letter-spacing: 2px;
+    background-color: #F7F3ED8C!important;
 }
 
 .google-visualization-table-tr-odd,
 .google-visualization-table-tr-odd td,
 .google-visualization-table-tr-odd-nonstrict {
   color: #916F31 !important;
+  background-color: #F7F3ED8C!important;
   font-size: 12pt;
     letter-spacing: 2px;
 }
