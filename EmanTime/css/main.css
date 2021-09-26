@@ -52,17 +52,17 @@ a:hover {
 .google-visualization-table-tr-even,
 .google-visualization-table-tr-even td,
 .google-visualization-table-tr-even-nonstrict {
-  color: #916F31 !important;
+  color: #E8C28B !important;
   font-size: 12pt;
    letter-spacing: 2px;
-    background-color: #fff!important;
+    background-color: #262626!important;
 }
 
 .google-visualization-table-tr-odd,
 .google-visualization-table-tr-odd td,
 .google-visualization-table-tr-odd-nonstrict {
   color: #916F31 !important;
-  background-color: #fff!important;
+  background-color: #262626!important;
   font-size: 12pt;
     letter-spacing: 2px;
 }
@@ -70,15 +70,15 @@ a:hover {
 .google-visualization-table-tr-sel,
 .google-visualization-table-tr-sel td,
 .google-visualization-table-tr-sel-nonstrict {
-  background-color: #fff!important;
-  color: #916F31!important;
+  background-color: #262626!important;
+  color: #E8C28B!important;
 }
 
 .google-visualization-table-tr-over,
 .google-visualization-table-tr-over td,
 .google-visualization-table-tr-over-nonstrict {
-  background-color: #fff !important;
-  color: #916F31!important;
+  background-color: #262626!important;
+  color: #E8C28B!important;
 }
 
 .google-visualization-table-td,
