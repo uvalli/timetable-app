@@ -55,14 +55,14 @@ a:hover {
   color: #916F31 !important;
   font-size: 12pt;
    letter-spacing: 2px;
-    background-color: #54595F!important;
+    background-color: #1b1d1f!important;
 }
 
 .google-visualization-table-tr-odd,
 .google-visualization-table-tr-odd td,
 .google-visualization-table-tr-odd-nonstrict {
   color: #916F31 !important;
-  background-color: #54595F!important;
+  background-color: ##1b1d1f!important;
   font-size: 12pt;
     letter-spacing: 2px;
 }
@@ -70,7 +70,7 @@ a:hover {
 .google-visualization-table-tr-sel,
 .google-visualization-table-tr-sel td,
 .google-visualization-table-tr-sel-nonstrict {
-  background-color: #54595F!important;
+  background-color: #1b1d1f!important;
   color: #916F31!important;
 }
 
