@@ -77,8 +77,8 @@ a:hover {
 .google-visualization-table-tr-over,
 .google-visualization-table-tr-over td,
 .google-visualization-table-tr-over-nonstrict {
-  background-color: #916F31 !important;
-  color: #fff !important;
+  background-color: #fff !important;
+  color: #916F31!important;
 }
 
 .google-visualization-table-td,
