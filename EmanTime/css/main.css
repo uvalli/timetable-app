@@ -54,7 +54,7 @@ a:hover {
 .google-visualization-table-tr-even-nonstrict {
   color: #E8C28B !important;
   font-size: 11pt;
-   letter-spacing: 2px;
+   letter-spacing: 1px;
     background-color: #262626!important;
 }
 
@@ -64,7 +64,7 @@ a:hover {
   color: #916F31 !important;
   background-color: #262626!important;
   font-size: 11pt;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .google-visualization-table-tr-sel,
@@ -97,8 +97,8 @@ padding-left: 0.3rem !important;
 background-color: #24231C!important;
   background-image: none !important;
   color: #916F31!important;
-  font-size: 12pt;
-  letter-spacing: 1.5px;
+  font-size: 11pt;
+  letter-spacing: 1.3px;
  padding-top: 2rem!important;
     font-weight:200!important;
  
