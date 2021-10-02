@@ -18,7 +18,7 @@
 
 h1 {
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 11.5pt;
+  font-size: 11pt;
   line-height: 1.3px;
   letter-spacing: -4px;
     padding-bottom: 5px;
@@ -27,7 +27,7 @@ h1 {
 
 p {
   font-family: Verdana, Geneva, sans-serif;
-    font-size: 11pt;
+    font-size: 10pt;
   line-height: 1.3px;
     padding: 0;
   width: 23px;
@@ -53,7 +53,7 @@ a:hover {
 .google-visualization-table-tr-even td,
 .google-visualization-table-tr-even-nonstrict {
   color: #E8C28B !important;
-  font-size: 12pt;
+  font-size: 11pt;
    letter-spacing: 2px;
     background-color: #262626!important;
 }
@@ -63,7 +63,7 @@ a:hover {
 .google-visualization-table-tr-odd-nonstrict {
   color: #916F31 !important;
   background-color: #262626!important;
-  font-size: 12pt;
+  font-size: 11pt;
     letter-spacing: 2px;
 }
 
@@ -98,7 +98,7 @@ background-color: #24231C!important;
   background-image: none !important;
   color: #916F31!important;
   font-size: 12pt;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
  padding-top: 2rem!important;
     font-weight:200!important;
  
