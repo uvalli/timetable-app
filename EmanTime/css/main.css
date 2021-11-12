@@ -87,9 +87,15 @@ a:hover {
   border: 0px solid #333 !important;
   color: #E8C28B!important;
     padding-top: 0.9rem !important;
-padding-bottom: 12px !important;
 padding-right: 0.3rem !important;
 padding-left: 0.3rem !important;
+}
+
+.google-visualization-table-td{
+padding-bottom: 18px !important;
+}
+.google-visualization-table-th {
+padding-botton:0.9rem !important;
 }
 
 .google-visualization-table-tr-head,
@@ -108,7 +114,6 @@ background-color: #24231C!important;
 .google-visualization-table .gradient {
   background-image: none !important;
 }
-
 
 /***************************
     Text Selection CSS
