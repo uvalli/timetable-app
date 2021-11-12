@@ -56,7 +56,7 @@ a:hover {
   font-size: 11pt;
    letter-spacing: 1px;
     background-color: #262626!important;
-    padding-bottom:5px
+   
 }
 
 .google-visualization-table-tr-odd,
@@ -87,7 +87,7 @@ a:hover {
   border: 0px solid #333 !important;
   color: #E8C28B!important;
     padding-top: 0.9rem !important;
-padding-bottom: 0.9rem !important;
+padding-bottom: 1.2rem !important;
 padding-right: 0.3rem !important;
 padding-left: 0.3rem !important;
 }
